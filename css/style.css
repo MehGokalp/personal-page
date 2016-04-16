@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    height: 100%;
+    overflow: hidden;
+}
+
+a{
+    color: #fff;
+}
+
+body{
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.terminal{
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 6px;
+}
+
+.terminal-header{
+    font-size: 12px;
+    text-align: center;
+    background: rgb(217, 217, 217);
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid rgb(107, 107, 107);
+}
+
+.icons{
+    float: left;
+}
+
+.icons .icon{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+    display: block;
+    border-radius: 1em;
+    width: 13px;
+    height: 13px;
+    padding: 2px 1px 0 1px;
+    float: left;
+    margin-right: 3px;
+    font-size: 9px;
+}
+
+.icons:hover > .icon > i{
+    display: block;
+}
+
+.icon.red{
+    background: rgb(234, 64, 68);
+}
+
+.icon.red:active{
+    background: rgb(165, 50, 49);
+}
+
+.icon.orange{
+    background: rgb(253, 180, 37);
+}
+
+.icon.orange:active{
+    background: rgb(177, 127, 27);
+}
+
+.icon.green{
+    background: rgb(42, 199, 51);
+}
+
+.icon.green:active{
+    background: rgb(30, 141, 37);
+}
+
+.icons .icon i{
+    display: none;
+}
+
+.terminal-body{
+    font-size: 12px;
+    background: #000;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow: scroll;
+}
+
+.terminal-body code::before{
+    content: '$';
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.terminal-body > code{
+    display: block;
+    padding: 0 5px;
+}
+
+
+@media screen and (max-width: 400px){
+    .terminal {
+        width: 95%;
+    }
+}
+
+.mg-logo{
+    width: 15px;
+    height: 10px;
+    margin-bottom: -1px;
+    background-image: url('../img/mehmetgokalp_logo.png');
+}
+
+/*CSS for serving the retina image to devices with a high "device-pixel-ratio":*/
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    .mg-logo{
+        background-image: url('../img/mehmetgokalp_logo_70x50.png');
+        background-size: 15px 10px;
+    }
+}
