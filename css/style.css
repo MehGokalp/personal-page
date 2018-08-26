@@ -95,6 +95,7 @@ body{
     min-height: 80vh;
     max-height: 80vh;
     overflow: scroll;
+    position: relative;
 }
 
 .terminal-body code::before{
@@ -107,6 +108,28 @@ body{
     display: block;
     padding: 0 5px;
 }
+
+.terminal-body > .help {
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 10px;
+}
+
+.messages {
+    display: none;
+}
+
+.messages.stopAnimate {
+    display: block;
+}
+
+.stopAnimate code{
+    display: block;
+    margin: 3px 0;
+}
+
 
 
 @media screen and (max-width: 400px){
