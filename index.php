@@ -4,9 +4,9 @@
         <meta name="google-site-verification" content="L--R4Xp6RYRJcmJQjV9emLK5WKbmDaG4dNpgyQWHJnQ" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Mehmet Gökalp Personal Web Site">
+        <meta name="description" content="Mehmet Gökalp's Personal Web Site">
         <meta name="author" content="Mehmet Gökalp">
-        <title>Mehmet Gökalp Personal Web Site</title>
+        <title>Mehmet Gökalp's Personal Web Site</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="alternate" href="http://mehmetgokalp.com/" hreflang="tr"/>
@@ -37,23 +37,23 @@
 
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Mehmet Gökalp">
-        <meta itemprop="description" content="Mehmet Gökalp Personal Web Site">
+        <meta itemprop="description" content="Mehmet Gökalp's Personal Web Site">
         <meta itemprop="image" content="http://mehmetgokalp.com/img/mehmetgokalp_logo_70x50.png">
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@MehGokalp" />
-        <meta name="twitter:title" content="Mehmet Gökalp Personal Web Site" />
-        <meta name="twitter:description" content="Mehmet Gökalp Personal Web Site" />
+        <meta name="twitter:title" content="Mehmet Gökalp's Personal Web Site" />
+        <meta name="twitter:description" content="Mehmet Gökalp's Personal Web Site" />
         <meta name="twitter:image" content="http://mehmetgokalp.com/img/mehmetgokalp_logo_70x50.png" />
 
         <!-- Open Graph data -->
-        <meta property="og:title" content="Mehmet Gökalp Personal Web Site" />
+        <meta property="og:title" content="Mehmet Gökalp's Personal Web Site" />
         <meta property="og:type" content="profile" />
         <meta property="og:url" content="http://mehmetgokalp.com/" />
         <meta property="og:image" content="http://mehmetgokalp.com/img/mehmetgokalp_logo_70x50.png" />
-        <meta property="og:description" content="Webmaster Mehmet Gökalp'in Kişisel Web Sayfası, Ataşehir/İstanbul" />
-        <meta property="og:site_name" content="Webmaster Mehmet Gökalp" />
+        <meta property="og:description" content="Personal Web Site" />
+        <meta property="og:site_name" content="Mehmet Gökalp's Personal Web Site" />
 
         <style>
             /* code for animated blinking cursor */
