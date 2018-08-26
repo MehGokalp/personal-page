@@ -142,14 +142,18 @@
                     isStopped = true;
                 }
             }
+
+            function destructTyping() {
+                stopAnimate();
+            }
             
             function bindESCEvents() {
                 $(document).keyup(function(e) {
                     if (e.keyCode === 27) { // escape key maps to keycode `27`
-                        stopAnimate();
+                        destructTyping();
                     }
                 }).on('click', '.escBtn', function () {
-                    stopAnimate();
+                    destructTyping();
                 });
             }
             
@@ -176,10 +180,6 @@
                 }, 100);
                 
                 bindESCEvents();
-            }
-            
-            function destructTyping() {
-            
             }
             
             $(document).on('ready', function(){
