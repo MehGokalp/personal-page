@@ -114,17 +114,17 @@
                 <div id="messages">
                     <p>
                         <code>Hello, my name is Mehmet Gökalp.</code>
-                        <code>Welcome to my personal web page. ^100 Let me introduce myself.</code>
+                        <code>Welcome to my personal web page. Let me introduce myself.</code>
                         <code>I'am a web master that aged <?=(new DateTime())->diff(new DateTime('1998-09-08'))->format('%y')?> and who is dedicated himself to programming.</code>
                         <code>I started programming when i was a little child with desktop applications. After then i've continued developing with web applications.</code>
-                        <code>Currently i'm developing high level backend applications with Symfony php framework, Nodejs with /(no)?sql/. I also used Golang, C#, C++, Lua, Phyton, ActionScript, Asp.NET ... and more of them before.</code>
+                        <code>Currently i'm developing high level backend applications with Symfony php framework, Nodejs with /(no)?sql/. I also used Golang, C#, C++, Lua, Python, ActionScript, Asp.NET ... and more of them before.</code>
                         <code>I'm also interested in frontend applications that using React, VueJs with ES6 <i class="fa fa-heart" style="color: red"></i> and of course i've knowledge of task Runners like grunt, gulp.pipe(angular).pipe(lodash).pipe(LESS).pipe(SASS) etc.</code>
                         <code>You can contact with me using your mobile phone <a href="tel:05375776564" itemprop="telephone">0(537) 577-65-64</a> or e-mail: <a href="mailto:iletisim@mehmetgokalp.com" itemprop="email">iletisim@mehmetgokalp.com</a>.</code>
                         <code>See you then ;), have a good day!</code>
                     </p>
                 </div>
                 <span id="message" style="white-space: pre-line;"></span>
-                <div class="help">Use <button type="button" class="btn escBtn">ESC</button> key to skip animation</div>
+                <div class="help">Use <button type="button" class="btn escBtn">ESC</button> key to skip animation or click <button type="button" class="btn escBtn">here</button></div>
             </article>
         </section>
 
@@ -140,7 +140,7 @@
                     $('#messages').addClass('stopAnimate').show(0);
                     
                     isStopped = true;
-                }
+               }
             }
 
             function destructTyping() {
