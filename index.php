@@ -119,7 +119,7 @@
                         <code>I started programming when i was a little child with desktop applications. After then i've continued developing with web applications.</code>
                         <code>Currently i'm developing high level backend applications with Symfony php framework, Nodejs with /(no)?sql/. I also used Golang, C#, C++, Lua, Python, ActionScript, Asp.NET ... and more of them before.</code>
                         <code>I'm also interested in frontend applications that using React, VueJs with ES6 <i class="fa fa-heart" style="color: red"></i> and of course i've knowledge of task Runners like grunt, gulp.pipe(angular).pipe(lodash).pipe(LESS).pipe(SASS) etc.</code>
-                        <code>You can contact with me using your mobile phone <a href="tel:05375776564" itemprop="telephone">0(537) 577-65-64</a> or e-mail: <a href="mailto:iletisim@mehmetgokalp.com" itemprop="email">iletisim@mehmetgokalp.com</a>.</code>
+                        <code>If you want to have more information or contact with me visit my <a target="_blank" href="https://www.linkedin.com/in/mehmet-g-3829a810b/" rel="nofollow">linkedin</a> profile or send an e-mail to <a href="mailto:me@mehmetgokalp.com" itemprop="email">me@mehmetgokalp.com</a>.</code>
                         <code>See you then ;), have a good day!</code>
                     </p>
                 </div>
