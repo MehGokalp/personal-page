@@ -87,7 +87,7 @@ body{
     display: none;
 }
 
-.terminal-body{
+.console{
     font-size: 12px;
     background: #000;
     color: #fff;
@@ -98,29 +98,29 @@ body{
     position: relative;
 }
 
-.terminal-body code::before{
+.console code::before{
     content: '$';
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.terminal-body > code{
+.console > code{
     display: block;
     padding: 0 5px;
 }
 
-.terminal-body .btn {
+.console .btn {
     padding: 2px 3px;
     background: white;
     border: 0;
     border-radius: 3px;
 }
 
-.terminal-body .btn:active {
+.console .btn:active {
     background: gray;
 }
 
-.terminal-body > .help {
+.console > .help {
     display: block;
     position: absolute;
     right: 5px;

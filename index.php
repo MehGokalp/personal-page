@@ -110,17 +110,16 @@
 
                 <img src="img/mehmetgokalp_logo.png" class="mg-logo" alt="Mehmet Gökalp Logo"> Mehmet Gökalp — -bash — 80 x 24
             </header>
-            <article class="terminal-body">
+            <article class="console">
                 <div id="messages">
                     <p>
                         <code>Hello, my name is Mehmet Gökalp.</code>
-                        <code>Welcome to my personal web page. Let me introduce myself.</code>
-                        <code>I'am a web master that aged <?=(new DateTime())->diff(new DateTime('1998-09-08'))->format('%y')?> and who is dedicated himself to programming.</code>
-                        <code>I started programming when i was a little child with desktop applications. After then i've continued developing with web applications.</code>
-                        <code>Currently i'm developing high level backend applications with Symfony php framework, Nodejs with /(no)?sql/. I also used Golang, C#, C++, Lua, Python, ActionScript, Asp.NET ... and more of them before.</code>
-                        <code>I'm also interested in frontend applications that using React, VueJs with ES6 <i class="fa fa-heart" style="color: red"></i> and of course i've knowledge of task Runners like grunt, gulp.pipe(angular).pipe(lodash).pipe(LESS).pipe(SASS) etc.</code>
-                        <code>If you want to have more information or contact with me visit my <a target="_blank" href="https://www.linkedin.com/in/mehmet-g-3829a810b/" rel="nofollow">linkedin</a> profile or send an e-mail to <a href="mailto:me@mehmetgokalp.com" itemprop="email">me@mehmetgokalp.com</a>.</code>
-                        <code>See you then ;), have a good day!</code>
+                        <code>I am a programmer who is dedicated himself to programming.</code>
+                        <code>I am currently developing high level backend applications with Symfony PHP Framework, Nodejs, Golang with /(no)?sql/, ELK, Redis and more.</code>
+                        <code>I am also interested in frontend applications that using React, VueJs with ES6 <i class="fa fa-" style="color: red"></i> and of course I have knowledge of task Runners like grunt, gulp.pipe(angular).pipe(lodash).pipe(LESS).pipe(SASS) etc.</code>
+                        <code>If you want to have more information or contact with me visit my <a target="_blank" href="https://www.linkedin.com/in/mehmet-g-3829a810b/" rel="nofollow">linkedin</a> profile or send an e-mail to <a href="mailto:mehgokalp98@gmail.com" itemprop="email">mehgokalp98@gmail.com</a>.</code>
+                        <code>And I encourage you to visit my <a target="_blank" href="https://github.com/MehGokalp" rel="nofollow">github</a> page!</code>
+                        <code>Have a good day!</code>
                     </p>
                 </div>
                 <span id="message" style="white-space: pre-line;"></span>
@@ -130,62 +129,7 @@
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/typed.min.js"></script>
-        <script>
-            var isStopped = false,
-                typedInstance;
-            
-            function stopAnimate() {
-                if (isStopped === false) {
-                    typedInstance.destroy();
-                    $('#messages').addClass('stopAnimate').show(0);
-                    
-                    isStopped = true;
-               }
-            }
-
-            function destructTyping() {
-                stopAnimate();
-            }
-            
-            function bindESCEvents() {
-                $(document).keyup(function(e) {
-                    if (e.keyCode === 27) { // escape key maps to keycode `27`
-                        destructTyping();
-                    }
-                }).on('click', '.escBtn', function () {
-                    destructTyping();
-                });
-            }
-            
-            function constructTyping() {
-                var anim = false;
-
-                typedInstance = new Typed('#message', {
-                    stringsElement: '#messages',
-                    typeSpeed: 10,
-                    loop: false,
-                    contentType: 'html',
-                    loopCount: false
-                });
-
-                var $terminalBody = $('.terminal-body');
-                setInterval(function(){
-                    if(!anim){
-                        anim = true;
-
-                        $terminalBody.animate({ scrollTop: $terminalBody.prop("scrollHeight")}, 100, function(){
-                            anim = false;
-                        });
-                    }
-                }, 100);
-                
-                bindESCEvents();
-            }
-            
-            $(document).on('ready', function(){
-                constructTyping();
-            });
-        </script>
+        <script type="text/javascript" src="js/main.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
