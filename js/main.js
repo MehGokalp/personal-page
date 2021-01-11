@@ -12,7 +12,8 @@ function destructTyping() {
 
 function bindESCEvents() {
     $(document).on('keyup', function(e) {
-        if (e.key === 27) { // escape key maps to keycode `27`
+        console.log(e.key);
+        if (e.key === 27) {
             destructTyping();
         }
     }).on('click', '.escBtn', function () {
