@@ -13,7 +13,7 @@ function destructTyping() {
 function bindESCEvents() {
     $(document).on('keyup', function(e) {
         console.log(e.key);
-        if (e.key === 27) {
+        if (e.key === 'Escape') {
             destructTyping();
         }
     }).on('click', '.escBtn', function () {

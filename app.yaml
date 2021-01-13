@@ -4,15 +4,19 @@ handlers:
     # Serve a directory as a static resource.
     -   url: /css
         static_dir: css
+        secure: always
 
     -   url: /js
         static_dir: js
+        secure: always
 
     # Serve images as static resources.
     -   url: /(.+\.(gif|png|jpg))$
         static_files: \1
         upload: .+\.(gif|png|jpg)$
+        secure: always
 
     # Serve your app through a front controller at index.php or public/index.php.
     -   url: .*
         script: auto
+        secure: always
